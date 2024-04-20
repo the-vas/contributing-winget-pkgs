@@ -1,0 +1,15 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: budimanjojo.talhelper
+PackageVersion:     2.3.11
+InstallerLocale: en-US
+InstallerType: portable
+Commands:
+- talhelper
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/budimanjojo/talhelper/releases/download/v2.3.11/talhelper_windows_amd64.tar.gz
+  InstallerSha256: e08db25aa1526d3799e5f6a4777c5f1bf5b6da8cb789b5a162e8717194d1fa5e
+ManifestType: installer
+ManifestVersion: 1.6.0
